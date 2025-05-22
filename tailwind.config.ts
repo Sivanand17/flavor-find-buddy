@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Food themed colors
+				tomato: "#FF6347",
+				avocado: "#568203",
+				butter: "#F5DEB3",
+				honey: "#FFA500",
+				cream: "#FFFDD0",
+				berry: "#8B0000"
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +92,16 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'pulse-heart': {
+					'0%, 100%': { transform: 'scale(1)' },
+					'50%': { transform: 'scale(1.15)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'pulse-heart': 'pulse-heart 0.5s ease-in-out'
 			}
 		}
 	},
