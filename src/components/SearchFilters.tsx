@@ -47,7 +47,7 @@ const SearchFiltersComponent: React.FC<SearchFiltersProps> = ({ onSearch, isLoad
               <SelectValue placeholder="Diet (Optional)" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="">Any Diet</SelectItem>
+              <SelectItem value="any">Any Diet</SelectItem>
               <SelectItem value="vegetarian">Vegetarian</SelectItem>
               <SelectItem value="vegan">Vegan</SelectItem>
               <SelectItem value="gluten free">Gluten Free</SelectItem>
